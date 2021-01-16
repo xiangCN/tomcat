@@ -27,6 +27,7 @@ import java.util.logging.Logger;
  */
 class DirectJDKLog implements Log {
     // no reason to hide this - but good reasons to not hide
+    // DirectJDKLog 类没有修饰为public,所以也没有必要把logger修饰为private了
     public final Logger logger;
 
     // Alternate config reader and console format

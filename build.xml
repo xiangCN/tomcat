@@ -29,9 +29,9 @@
   <!-- is part of the original project source code.                          -->
   <!-- See "build.properties.default" in the top level directory for some    -->
   <!-- property values you may customize.                                    -->
-  <property file="${user.home}/build.properties"/>
+  <!--<property file="${user.home}/build.properties"/>-->
   <property file="build.properties"/>
-  <property file="build.properties.default"/>
+  <!--<property file="build.properties.default"/>-->
 
   <!-- Check Ant Version -->
   <fail message="Ant version ${ant.version.required} or newer is required (${ant.version} is installed)">
